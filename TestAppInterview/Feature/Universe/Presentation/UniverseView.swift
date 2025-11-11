@@ -1,14 +1,14 @@
 //
-//  MarvelView.swift
+//  UniverseView.swift
 //  TestAppInterview
 //
 //  Created by Vladyslav Vydovskyi on 10.11.2025.
 //
 import SwiftUI
 
-struct MarvelListView: View {
+struct UniverseView: View {
     
-    @StateObject var viewModel: MarvelViewModel
+    @StateObject var viewModel: UniverseViewModel
     
     var body: some View {
         NavigationStack {

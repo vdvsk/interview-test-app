@@ -1,5 +1,5 @@
 //
-//  MarvelViewModel.swift
+//  UniverseViewModel.swift
 //  TestAppInterview
 //
 //  Created by Vladyslav Vydovskyi on 10.11.2025.
@@ -7,7 +7,7 @@
 import SwiftUI
 
 @MainActor
-final class MarvelViewModel: ObservableObject {
+final class UniverseViewModel: ObservableObject {
     
     @Published var state: State = .idle
 
@@ -31,7 +31,7 @@ final class MarvelViewModel: ObservableObject {
     
 }
 
-extension MarvelViewModel {
+extension UniverseViewModel {
     
     enum State: Equatable {
         case idle

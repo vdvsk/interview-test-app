@@ -11,7 +11,7 @@ import SwiftUI
 struct TestAppInterviewApp: App {
     var body: some Scene {
         WindowGroup {
-           MarvelListView(viewModel: MarvelViewModel(service: NetworkService()))
+           UniverseView(viewModel: UniverseViewModel(service: NetworkService()))
         }
     }
 }
